@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tables</title>
+  </head>
+  <body>
+     {% csrf_token %}
+    {% for i in Capital %}
+    <h2>{{i.short_time_fin_cap}}</h2>
+
+     {% endfor %}
+  </body>
+</html>
+
+<script type="text/javascript">
+
+</script>
